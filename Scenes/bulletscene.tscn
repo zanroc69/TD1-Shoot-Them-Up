@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dpfurq65t353j"]
+
+[ext_resource type="Texture2D" uid="uid://bpi7xwbogvkid" path="res://KennyAssets/SpaceShooterRedux/Lasers/laserBlue02.png" id="1_0tu31"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eihyh"]
+size = Vector2(12, 37)
+
+[node name="bulletscene" type="Node2D" unique_id=84579890]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1777633963]
+texture = ExtResource("1_0tu31")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1848152574]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_eihyh")

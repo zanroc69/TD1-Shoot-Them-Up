@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cimach44tu7v8"]
+
+[ext_resource type="Script" uid="uid://cydxf08drw8yr" path="res://Scripts/player.gd" id="1_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://c54n2n6t72u86" path="res://KennyAssets/SpaceShooterRedux/playerShip1_red.png" id="1_v0iea"]
+
+[node name="player" type="Area2D" unique_id=770741940]
+script = ExtResource("1_cvnsp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=367599384]
+texture = ExtResource("1_v0iea")
